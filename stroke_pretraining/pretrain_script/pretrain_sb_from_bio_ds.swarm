@@ -1,4 +1,4 @@
-/data/linc9/conda/envs/bert/bin/python3 run_pretraining.py \
+/data/linc9/conda/envs/bert/bin/python3 ../run_pretraining.py \
 --input_file=/data/linc9/strokelBERT/data/tfrecords/ds.tfrecord \
 --bert_config_file=/data/linc9/strokelBERT/models/biobert_v1.0_pubmed_pmc/bert_config.json \
 --init_checkpoint=/data/linc9/strokelBERT/models/biobert_v1.0_pubmed_pmc/biobert_model.ckpt \
