@@ -1,5 +1,5 @@
 /data/linc9/conda/envs/bert/bin/python3 ../run_pretraining.py \
---input_file=/data/linc9/strokeBERT/data/tfrecords/ds.tfrecord,/data/linc9/strokelBERT/data/tfrecords/carotid.tfrecord,/data/linc9/strokelBERT/data/tfrecords/xnote.tfrecord,/data/linc9/strokelBERT/data/tfrecords/nu_note.tfrecord \
+--input_file=/data/linc9/strokeBERT/data/tfrecords/ds.tfrecord,/data/linc9/strokeBERT/data/tfrecords/carotid.tfrecord,/data/linc9/strokeBERT/data/tfrecords/xnote.tfrecord,/data/linc9/strokeBERT/data/tfrecords/nu_note.tfrecord \
 --bert_config_file=/data/linc9/strokeBERT/models/biobert_v1.0_pubmed_pmc/bert_config.json \
 --init_checkpoint=/data/linc9/strokeBERT/models/biobert_v1.0_pubmed_pmc/biobert_model.ckpt \
 --output_dir=/data/linc9/strokeBERT/models/strokeBERT_biobased_all_150000 \
