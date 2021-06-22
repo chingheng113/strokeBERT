@@ -1,0 +1,13 @@
+/data/linc9/conda/envs/bert/bin/python3 ../../run_classifier.py \
+			  --data_dir=../../data/reStroke_90/round_0 \
+			  --bert_model=stroke_biobased_bert \
+			  --model_loc ../../../models/strokeBERT_biobased_all_150000 \
+			  --task_name restroke \
+			  --do_train \
+			  --do_test \
+			  --output_dir=../../output/restroke_90/sb_all_0  \
+			  --num_train_epochs 10.0 \
+			  --learning_rate 3e-5 \
+			  --train_batch_size 24 \
+			  --max_seq_length 400 \
+			  --gradient_accumulation_steps 1

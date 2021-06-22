@@ -1,0 +1,13 @@
+/data/linc9/conda/envs/bert/bin/python3 ../run_classifier.py \
+			  --data_dir=../data/carotid/round_2 \
+			  --bert_model=clinical_bert \
+			  --model_loc ../../models/biobert_pretrain_output_all_notes_150000 \
+			  --task_name carotid \
+			  --do_train \
+			  --do_test \
+			  --output_dir=../output/carotid/c_all_2  \
+			  --num_train_epochs 10.0 \
+			  --learning_rate 5e-5 \
+			  --train_batch_size 24 \
+			  --max_seq_length 400 \
+			  --gradient_accumulation_steps 1
