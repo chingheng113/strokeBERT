@@ -41,7 +41,13 @@ def convert_tf_checkpoint_to_pytorch(tf_checkpoint_path, bert_config_file, pytor
 
 
 if __name__ == "__main__":
-    # python convert_bert_original_tf_checkpoint_to_pytorch.py --tf_checkpoint_path ./strokeBERT_dis_100000/model.ckpt-100000 --bert_config_file ./strokeBERT_dis_100000/bert_config.json --pytorch_dump_path C:\Users\linc9\PycharmProjects\clinicalBERT\models\strokeBERT_dis_100000/pytorch_model.bin
+    '''
+    python convert_bert_original_tf_checkpoint_to_pytorch.py \
+    --tf_checkpoint_path ./strokeBERT_biobased_all_150000/model.ckpt-150000 \
+    --bert_config_file ./strokeBERT_biobased_all_150000/bert_config.json \
+    --pytorch_dump_path ./strokeBERT_biobased_all_150000/pytorch_model.bin
+    '''
+
     parser = argparse.ArgumentParser()
     ## Required parameters
     parser.add_argument("--tf_checkpoint_path",
