@@ -1,11 +1,11 @@
 /data/linc9/conda/envs/bert/bin/python3 ../run_classifier.py \
 			  --data_dir=../data/carotid2 \
 			  --bert_model=stroke_biobased_bert \
-			  --model_loc ../output/carotid/sb_all_9 \
-			  --vocab_loc ../../models/strokeBERT_biobased_all_150000 \
+			  --model_loc ./output/carotid/sb_all_9 \
+			  --vocab_loc ../models/strokeBERT_biobased_all_150000 \
 			  --task_name carotid \
 			  --do_eval \
-			  --output_dir=../output/carotid2/sb_all_9  \
+			  --output_dir=./output/carotid2/sb_all_9  \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 5e-5 \
 			  --train_batch_size 24 \
