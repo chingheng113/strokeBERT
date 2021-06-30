@@ -1,5 +1,5 @@
 /data/linc9/conda/envs/bert/bin/python3 ../../run_classifier.py \
-			  --data_dir=../../data/reStroke_ds/round_4 \
+			  --data_dir=../../data/reStroke_all/round_4 \
 			  --bert_model=stroke_biobased_bert \
 			  --model_loc ../../../models/strokeBERT_biobased_ds_150000 \
 			  --task_name restroke \
