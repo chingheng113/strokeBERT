@@ -41,7 +41,7 @@ for lab_inx in range(17):
     std_auc = np.std(aucs)
     mean_f1 = np.mean(f1s, axis=0)
     std_f1 = np.std(f1s)
-    # print(model_name)
+    print(model_name)
     # print(labels[lab_inx])
     print(round(mean_auc,3), round(std_auc,3))
     # print(mean_f1)
