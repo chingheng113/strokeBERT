@@ -7,7 +7,7 @@ import pickle
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import label_binarize
 
-model_name = 'b_all_'
+model_name = 'sb_all_'
 labels = ['RCCA', 'REICA', 'RIICA', 'RACA', 'RMCA', 'RPCA', 'REVA', 'RIVA', 'BA', 'LCCA', 'LEICA', 'LIICA',
           'LACA', 'LMCA', 'LPCA', 'LEVA', 'LIVA']
 for lab_inx in range(17):
