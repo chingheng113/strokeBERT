@@ -5,7 +5,7 @@
 			  --task_name carotid \
 			  --do_train \
 			  --do_test \
-			  --output_dir= ../output/carotid/sb_all_1  \
+			  --output_dir=../output/carotid/sb_all_1  \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 5e-5 \
 			  --train_batch_size 24 \
