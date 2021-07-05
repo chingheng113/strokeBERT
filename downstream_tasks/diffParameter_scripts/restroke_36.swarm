@@ -1,11 +1,11 @@
 /data/linc9/conda/envs/bert/bin/python3 ../../run_classifier.py \
-			  --data_dir=../../data/reStroke_all/round_0 \
+			  --data_dir=../data/reStroke_all/round_0 \
 			  --bert_model=stroke_biobased_bert \
-			  --model_loc ../../../models/strokeBERT_biobased_all_150000 \
+			  --model_loc ../../models/strokeBERT_biobased_all_150000 \
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../../output/restroke_all/sb_36  \
+			  --output_dir=../output/restroke_all/sb_36  \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-6 \
 			  --train_batch_size 24 \
