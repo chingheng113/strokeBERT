@@ -1,4 +1,4 @@
-/data/linc9/conda/envs/bert/bin/python3 ../../run_classifier.py \
+/data/linc9/conda/envs/bert/bin/python3 ../run_classifier.py \
 			  --data_dir=../data/reStroke_all/round_0 \
 			  --bert_model=stroke_biobased_bert \
 			  --model_loc ../../models/strokeBERT_biobased_all_150000 \
