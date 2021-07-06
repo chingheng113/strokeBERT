@@ -16,7 +16,7 @@ with open(read_path, 'rb') as f:
     fprs = []
     tprs = []
     roc_aucs = []
-    for i in range(17):
+    for i in range(len(labels)):
         fpr, tpr, _ = roc_curve(all_labels[:, i], all_logits[:, i])
         roc_auc = auc(fpr, tpr)
         if ~np.isnan(roc_auc):
