@@ -6,9 +6,9 @@ import numpy as np
 
 model_name = 'sb_24'
 print(model_name)
-read_path = os.path.join('carotid2', model_name, 'eval_prediction.pickle')
-labels = ['RCCA', 'REICA', 'RIICA', 'RACA', 'RMCA', 'RPCA', 'REVA', 'RIVA', 'BA', 'LCCA', 'LEICA', 'LIICA',
-          'LACA', 'LMCA', 'LPCA', 'LEVA', 'LIVA']
+read_path = os.path.join('carotid', model_name, 'test_prediction.pickle')
+labels = ['RIICA', 'RACA', 'RMCA', 'RPCA', 'RIVA', 'BA', 'LIICA', 'LACA', 'LMCA', 'LPCA', 'LIVA']
+#labels = ['RCCA', 'REICA', 'REVA', 'LCCA', 'LEICA', 'LEVA']
 with open(read_path, 'rb') as f:
     data = pickle.load(f)
     all_logits = data['all_logits']
