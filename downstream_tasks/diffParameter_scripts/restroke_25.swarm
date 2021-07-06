@@ -7,7 +7,7 @@
 			  --do_test \
 			  --output_dir=../output/restroke_all/sb_25  \
 			  --num_train_epochs 10.0 \
-			  --learning_rate 2e-5 \
+			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
 			  --max_seq_length 200 \
 			  --gradient_accumulation_steps 1
