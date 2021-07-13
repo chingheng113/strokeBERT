@@ -5,7 +5,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_1  \
+			  --output_dir=../output/restroke_all/sb_25_1 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -13,13 +13,13 @@
 			  --gradient_accumulation_steps 1
 
 /data/linc9/conda/envs/bert/bin/python3 ../run_classifier.py \
-			  --data_dir=../data/reStroke_all/round_2\
+			  --data_dir=../data/reStroke_all/round_2 \
 			  --bert_model=stroke_biobased_bert \
 			  --model_loc ../../models/strokeBERT_biobased_all_150000 \
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_2  \
+			  --output_dir=../output/restroke_all/sb_25_2 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -33,7 +33,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_3  \
+			  --output_dir=../output/restroke_all/sb_25_3 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -47,7 +47,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_4  \
+			  --output_dir=../output/restroke_all/sb_25_4 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -61,7 +61,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_5  \
+			  --output_dir=../output/restroke_all/sb_25_5 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -75,7 +75,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_6  \
+			  --output_dir=../output/restroke_all/sb_25_6 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -89,7 +89,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_7  \
+			  --output_dir=../output/restroke_all/sb_25_7 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -103,7 +103,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_8  \
+			  --output_dir=../output/restroke_all/sb_25_8 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
@@ -117,7 +117,7 @@
 			  --task_name restroke \
 			  --do_train \
 			  --do_test \
-			  --output_dir=../output/restroke_all/sb_25_9  \
+			  --output_dir=../output/restroke_all/sb_25_9 \
 			  --num_train_epochs 10.0 \
 			  --learning_rate 3e-5 \
 			  --train_batch_size 24 \
